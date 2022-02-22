@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  margin: 20px 25px;
+  justify-content: space-between;
+}
+.nav-ttl h1 {
+  color: blue;
+  font-size: 25px;
+}
+.nav-cnt a {
+  text-decoration: none;
+  color: blue;
+}
+.nav-cnt li {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.ttl {
+  position: relative;
+}
+.ttl-img {
+  position: absolute;
+  width: 50%;
+  display: block;
+  right: 0px;
+  top: 50px;
+}
+.ttl-btm {
+  margin-top: 400px;
+}
+.ttl-txt {
+  font-size: 400%;
+  font-weight: normal;
+}
+.bluebox {
+  background: blue;
+  width: 70%;
+  height: 150px;
+}
